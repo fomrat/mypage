@@ -1,149 +1,133 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-        <meta name="mobile-web-app-capable" content="yes" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
-        <link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
-        <link rel="microsub" href="https://aperture.p3k.io/microsub/1068" />
-        <title>fomrat's website</title>
-        <style>
-            @media (prefers-color-scheme: dark) {
-                html {
-                    background-color: #111111;
-                    color: #fbfbfb;
-                }
-                a {
-                    color: #ca8465;
-                }
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
+    <link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
+    <link rel="microsub" href="https://aperture.p3k.io/microsub/1068" />
+    <title>fomrat's website</title>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            html {
+                background-color: #111111;
+                color: #fbfbfb;
             }
-            body {
-                line-height: 1.6;
-                font-family:
-                    Menlo,
-                    Consolas,
-                    Monaco,
-                    Adwaita Mono,
-                    Liberation Mono,
-                    Lucida Console,
-                    monospace;
-                text-align: center;
-                margin: 1rem auto;
-                padding: 1rem;
-                min-height: 90vh;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                max-width: 1600px;
-            }
-            img.u-photo {
-                border-radius: 50%;
-                width: 200px;
-                height: 200px;
-                object-fit: cover;
-                max-width: 40vw;
-                max-height: 40vw;
-                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-                margin-bottom: 1rem;
-            }
-            ul {
-                padding: 0;
-                list-style: none;
-            }
-            ul li {
-                margin: 0.5rem 0;
-            }
-            section {
-                margin-top: 2rem;
-                max-width: 600px;
-                padding: 1.5rem;
-                border-top: 1px solid rgba(128, 128, 128, 0.2);
-            }
+
             a {
-                text-decoration: none;
-                transition: opacity 0.2s;
+                color: #ca8465;
             }
-            a:hover {
-                opacity: 0.7;
-            }
-            h2 {
-                font-size: 1.2rem;
-                font-weight: 600;
-                margin-bottom: 1rem;
-            }
-        </style>
-    </head>
-    <body>
-        <main class="h-card" rel="author">
-            <img
-                class="u-photo"
-                alt="Brian MacAskill profile photo"
-                src="Brian-bw-large.jpg"
-            />
-            <h1>I'm <span class="p-name">Brian MacAskill</span>.</h1>
-            <p class="p-note">
-                I spend my time maintaining a homelab, tinkering with networks,
-                automation, and self-hosted services.<br /><br />
-                I also read a lot.
-            </p>
-            <ul>
-                <li>
-                    <a class="u-uid u-url" href="https://fomrat.com/"
-                        >fomrat's website</a
-                    >
-                </li>
-                <li>
-                    Github:
-                    <a class="u-url" href="https://github.com/fomrat" rel="me"
-                        >@fomrat</a
-                    >
-                </li>
-                <li>
-                    Bluesky:
-                    <a
-                        class="u-url"
-                        href="https://bsky.app/profile/fomrat.com"
-                        rel="me"
-                        >@fomrat.com</a
-                    >
-                </li>
-                <li>
-                    X/Twitter:
-                    <a class="u-url" href="https://x.com/fomrat" rel="me"
-                        >@fomrat</a
-                    >
-                </li>
-                <li>
-                    Reddit:
-                    <a
-                        class="u-url"
-                        href="https://reddit.com/user/fomrat"
-                        rel="me"
-                        >u/fomrat</a
-                    >
-                </li>
-            </ul>
-        </main>
-        <section>
-            <h2>Now</h2>
-            <p>I am exploring Cloud VPSs and building my personal site.</p>
-            <p>
-                I am reading <em>Solaris</em> by Stanisław Lem and
-                <em
-                    >Empire of Ants: The Hidden World and Extraordinary Lives of
-                    Earth's Tiny Conquerors</em
-                >, by Susanne Foitzik and Olaf Fritsche.
-            </p>
-            <p>
-                <small
-                    >Updated July 6, 2026 —
-                    <a href="https://nownownow.com/about"
-                        >what's a now page?</a
-                    ></small
-                >
-            </p>
-        </section>
-    </body>
+        }
+
+        body {
+            line-height: 1.6;
+            font-family:
+                Menlo,
+                Consolas,
+                Monaco,
+                Adwaita Mono,
+                Liberation Mono,
+                Lucida Console,
+                monospace;
+            text-align: center;
+            margin: 1rem auto;
+            padding: 1rem;
+            min-height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            max-width: 1600px;
+        }
+
+        img.u-photo {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            max-width: 40vw;
+            max-height: 40vw;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            padding: 0;
+            list-style: none;
+        }
+
+        ul li {
+            margin: 0.5rem 0;
+        }
+
+        section {
+            margin-top: 2rem;
+            max-width: 600px;
+            padding: 1.5rem;
+            border-top: 1px solid rgba(128, 128, 128, 0.2);
+        }
+
+        a {
+            text-decoration: none;
+            transition: opacity 0.2s;
+        }
+
+        a:hover {
+            opacity: 0.7;
+        }
+
+        h2 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="h-card" rel="author">
+        <img class="u-photo" alt="Brian MacAskill profile photo" src="Brian-bw-large.jpg" />
+        <h1>I'm <span class="p-name">Brian MacAskill</span>.</h1>
+        <p class="p-note">
+            I spend my time maintaining a homelab, tinkering with networks,
+            automation, and self-hosted services.<br /><br />
+            I also read a lot.
+        </p>
+        <ul>
+            <li>
+                <a class="u-uid u-url" href="https://fomrat.com/">fomrat's website</a>
+            </li>
+            <li>
+                Github:
+                <a class="u-url" href="https://github.com/fomrat" rel="me">@fomrat</a>
+            </li>
+            <li>
+                Bluesky:
+                <a class="u-url" href="https://bsky.app/profile/fomrat.com" rel="me">@fomrat.com</a>
+            </li>
+            <li>
+                X/Twitter:
+                <a class="u-url" href="https://x.com/fomrat" rel="me">@fomrat</a>
+            </li>
+            <li>
+                Reddit:
+                <a class="u-url" href="https://reddit.com/user/fomrat" rel="me">u/fomrat</a>
+            </li>
+        </ul>
+    </main>
+    <section>
+        <h2>Now</h2>
+        <p>I am exploring Cloud VPSs and building my personal site.</p>
+        <p>
+            I am reading <em>Solaris</em> by Stanisław Lem and
+            <em>Empire of Ants</em>, by Susanne Foitzik and Olaf Fritsche.
+        </p>
+        <p>
+            <small>Updated July 6, 2026 — <a href="https://nownownow.com/about">what's a now page?</a></small>
+        </p>
+    </section>
+</body>
+
 </html>
